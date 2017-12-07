@@ -1,0 +1,134 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+main,
+li {
+    display: block;
+}
+
+strong {
+    font-weight: bold;
+}
+a,
+button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+} 
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+ /*Mit dem obigen Code schaffen wir eine gute Grundlage (Foundation) für unsere CSS Datei. Der Grund warum normalization und reset nicht immer die beste Entscheidung sind ist schlicht und ergreifend, weil sie einerseits überflüssigen Code beinhalten wie beispielsweise <hr>, <kbd>, <var> oder <ruby> tags. Andererseits fehlen wichtige Sachen */
+
+html{
+    min-height: 101vh;
+}
+
+body{
+    background: radial-gradient(circle, #0059b3, #004080, #00264d);
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+    color: black;
+    background: linear-gradient(to right, rgb(26, 163, 255) ,  rgb(0, 230, 230));
+    justify-content: center;
+	align-items: center;
+}
+
+nav li{
+	flex: 1;
+	text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+article{
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+	font-size: 1.5rem;
+}
+
+h2{
+	font-size: 1.2rem;
+}
+
+h3{
+	font-size: 1.1rem;
+}
+
+article{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+.about_img{
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.about_img:hover{
+    width: 50px;
+}
+
+p:first-child{
+    margin-bottom: 10px;
+}

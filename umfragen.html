@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+    <head>
+        <meta name="author" content="Dustin Reimann">
+        <meta charset="utf-8">
+        <title>Games Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="./logo/pubg_pan.png"></a></li>
+                    <li><a href="umfragen.html">Umfragen</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="ueber.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>Umfragen:</h2>
+            <form action="reviews.html">
+                <fieldset>
+                    <legend>Was ist dein Lieblings-Game?</legend>
+                        <input type="radio" name="games" value="Overwatch" title="Overwatch" checked><label>Overwatch</label>
+                        <input type="radio" name="games" value="CS GO" title="CS GO"><label>Counter-Strike: Global Offensive</label>
+                        <input type="radio" name="games" value="LOL" title="LOL"><label>League of Legends</label>
+                        <input type="radio" name="games" value="PUBG" title="PUBG"><label>Playerunknown's Battlegrounds</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Auf welcher Plattform spielst du?</legend>
+                    <input type="checkbox" id="pc" name="console"><label for="pc">PC</label>
+                    <input type="checkbox" name="console"><label>XBOX</label>
+                    <input type="checkbox" name="console"><label>PS4</label>
+                    <input type="checkbox" name="console"><label>Switch</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Welche war deine erste Konsole?</legend>
+                    <select name="Plattformen">
+                        <optgroup label="PC">
+                        <option>Computer</option>
+                        <optgroup label="Nintendo">  
+                        <option>Nintendo Entertainment System</option>
+                        <option>SuperNintendo Entertainment System</option> 
+                        <option>Nintendo 64</option>   
+                        <option>Nintendo GameCube</option> 
+                        <option>Nintendo Wii</option>
+                        <option>Nintendo Wii U </option>
+                        <optgroup label="Sony Playstation"> 
+                        <option>Playstation 1</option> 
+                        <option>Playstation 2</option> 
+                        <option>Playstation 3</option>
+                        <option>Playstation 4</option>
+                        <optgroup label="Microsoft XBOX"> 
+                        <option>XBOX</option>
+                        <option>XBOX 360</option>
+                        <option>XBOX One</option>
+                        <option>-Andere-</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Bitte gebe nun deinen Vornamen ein:</legend>
+                    <input type="text" name="firstname" size="30">
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+        <footer>
+            All rights reserved.
+        </footer>
+    </body>
+</html>
