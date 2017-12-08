@@ -131,6 +131,7 @@ p:first-child{
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 /* Grid Layout*/
 
 .wrapper {
@@ -199,4 +200,37 @@ p:first-child{
     width: 100%;
     z-index: 1;
     background-color: rgba(100, 100, 100, .7);
+=======
+/*lel*/
+
+.header {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+    
+}
+.content img{
+    width: 100px;
+}
+.opinon{
+  grid-area: opinon;
+}
+.wrapper {
+  display: grid;
+    height: 300px;
+    overflow: hidden;
+    
+  grid-template-areas: "header header header"
+  						"content content opinon";
+  grid-gap: 10px;
+  background-color: #2196F3;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wrapper > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+>>>>>>> 34ae8eed970f39463c33105889107585214bfd21
 }
