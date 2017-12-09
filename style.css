@@ -141,8 +141,6 @@ p:first-child{
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    
-<<<<<<< HEAD
 }
 
 .wrapper > div {
@@ -179,45 +177,6 @@ p:first-child{
     width: 100%;
 }
 
-=======
-}
-
-.wrapper > div {
-    background-color: rgba(255, 255, 255, 0.3);
-    font-size: 30px;
-    text-transform: uppercase;
-    overflow: hidden;
-    position: relative;
-    max-height: 300px;
-}
-
-.review {
-    grid-column: 1 / 4;
-    max-width: 100%;
-}
-
-.review a{
-    position: absolute;
-}
-
-.review_header{
-    width: auto;
-    z-index: 1;
-    background-color: #CC4444;
-    padding: 5px;
-    margin: 10px;
-    font-size: 15px;
-}
-
-.review_title{
-    background-color: rgba(100, 100, 100, 0.5);
-    font-size: 40px;
-    margin-top: 200px;
-    padding-left: 10px;
-    width: 100%;
-}
-
->>>>>>> 0ae7cdcb6614c47adfa8ec6e5e5c2f982befe7d4
 .review_subtitle{
     background-color: rgba(100, 100, 100, 0.5);
     font-size: 25px;
@@ -228,7 +187,6 @@ p:first-child{
 }
 
 .review img{
-<<<<<<< HEAD
     width: 100%;
     
 }
@@ -237,16 +195,6 @@ p:first-child{
     grid-column: 1 / 3;
 }
 
-=======
-    width: inherit;
-    min-height: 300px;
-}
-
-.content {
-    grid-column: 1 / 3;
-}
-
->>>>>>> 0ae7cdcb6614c47adfa8ec6e5e5c2f982befe7d4
 .content a{
     position: absolute;
 }
@@ -254,17 +202,12 @@ p:first-child{
 .content_header{
     width: auto;
     z-index: 1;
-<<<<<<< HEAD
     background-color: #2244AA;
-=======
-    background-color: #44AA44;
->>>>>>> 0ae7cdcb6614c47adfa8ec6e5e5c2f982befe7d4
     padding: 5px;
     margin: 10px;
     font-size: 15px;
 }
 
-<<<<<<< HEAD
 .news{
     grid-column: 3 / 4;
 }
@@ -283,7 +226,6 @@ p:first-child{
 }
 
 .news_img{
-    
     max-height: 150px;
     width: 100%;
 }
@@ -352,21 +294,4 @@ p:first-child{
         padding-top: 5px;
     }
     
-=======
-.opinion{
-    grid-column: 3 / 4;
-}
-
-.opinion a{
-    position: absolute;
-}
-
-.opinion_header{
-    width: auto;
-    z-index: 1;
-    background-color: #2244AA;
-    padding: 5px;
-    margin: 10px;
-    font-size: 15px;
->>>>>>> 0ae7cdcb6614c47adfa8ec6e5e5c2f982befe7d4
 }
