@@ -390,3 +390,18 @@ p:first-child{
         height: 16px;
     }
 }
+
+.review:hover{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.umfrage:hover{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.news:hover{
+    margin-left: 3px;
+    margin-top: 3px;
+}
