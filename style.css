@@ -68,17 +68,14 @@ body{
     color: white;
 }
 
-footer{
-    text-align: center;
-    margin-top: auto;
-}
-
 nav img{
-    width: 50px;
-    height: 50px;
+    justify-content: center;
+    margin-left: 24px;
+    float: left;
 }
 
 nav ul{
+    clear: both;
 	display: flex;
 	flex-direction: row;
     color: black;
@@ -92,6 +89,17 @@ nav li{
 	text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+footer{
+    position: relative;
+    background: linear-gradient(to right, rgb(10, 10, 10) ,  rgb(0, 130, 130));
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#logo{
 }
 
 article{
@@ -272,12 +280,12 @@ p:first-child{
     }
     
     .review > span {
-    font-size: 13px;
+        font-size: 13px;
     }
     
     .review > h2 {
-    font-size: 30px;
-    margin-top: 125px;
+        font-size: 30px;
+        margin-top: 125px;
     }
 
     .review > p {
@@ -290,11 +298,11 @@ p:first-child{
     }
     
     .umfrage > span {
-    font-size: 13px;
+        font-size: 13px;
     }
     
     .news > span {
-    font-size: 13px;
+        font-size: 13px;
     }
     
     .umfrage > img{
@@ -312,21 +320,22 @@ p:first-child{
     }
     
     .umfrage{
-    grid-column: 1 / 4;
+        grid-column: 1 / 4;
     }
     
     .news{
-    grid-column: 1 / 4;
+        grid-column: 1 / 4;
     }
     
     nav li{
-    font-size: 1.4rem;
+        font-size: 1.4rem;
     }
     
     nav img{
-    width: 40px;
-    height: 40px;
-}
+        position: relative;
+        width: 100px;
+        height: 32px;
+    }
 }
 
 @media screen and (max-width: 400px){
@@ -335,12 +344,12 @@ p:first-child{
     }
     
     .review > span {
-    font-size: 10px;
+        font-size: 10px;
     }
     
     .review > h2 {
-    font-size: 20px;
-    margin-top: 100px;
+        font-size: 20px;
+        margin-top: 100px;
     }
     
     .review > p {
@@ -355,11 +364,11 @@ p:first-child{
     }
     
     .umfrage > span {
-    font-size: 10px;
+        font-size: 10px;
     }
     
     .news > span {
-    font-size: 10px;
+        font-size: 10px;
     }
     
     .umfrage > img{
@@ -377,11 +386,11 @@ p:first-child{
     }
     
     nav li{
-    font-size: 1.1rem;
+        font-size: 1.1rem;
     }
     
     nav img{
-    width: 30px;
-    height: 30px;
-}
+        width: 50px;
+        height: 16px;
+    }
 }
