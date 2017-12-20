@@ -141,15 +141,14 @@ font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
 font-size: 30px;
 }
 
+
 .gaming_fragen{
 font-size: 30px;
 color: red;
 }
 
 /*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
-p:first-child{
-    margin-bottom: 10px;
-}
+
 
 /* Grid Layout*/
 
@@ -315,3 +314,8 @@ p:first-child{
     }
 
 }
+
+p:first-child{
+    margin-bottom: 10px;
+}
+
