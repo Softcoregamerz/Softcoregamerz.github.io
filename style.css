@@ -91,6 +91,8 @@ nav li{
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
 footer{
     position: relative;
     background: linear-gradient(to right, rgb(10, 10, 10) ,  rgb(0, 130, 130));
@@ -102,6 +104,7 @@ footer{
 article{
     max-width: 100%;
 }
+>>>>>>> 2b46909c23427a30747b387ee80f6b891946c0bd
 
 h1{
     text-align: center;
@@ -117,6 +120,15 @@ h3{
 }
 
 article{
+<<<<<<< HEAD
+
+}
+/*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
+.franz_wrapper{
+width: 100%; 
+height:700px;
+    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.1));
+=======
 
 }
 /*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
@@ -158,6 +170,7 @@ color: red;
 .franz_wrapper{
 width: 100%; 
 height:700px;
+>>>>>>> 2b46909c23427a30747b387ee80f6b891946c0bd
     
 }
 .franz_wrapper > img{
@@ -167,6 +180,45 @@ height:700px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
+<<<<<<< HEAD
+    margin-top: 8px;  
+    
+}
+.franz_wrapper > article{
+margin-top:20px;
+width:100%;
+height:700px;
+}
+
+.franz_cheat_sheet{
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.normaler_Text{
+   text-shadow: 0px px 3px #555;
+font: 20px Tahoma, Helvetica, Arial, Sans-Serif; 
+}
+.begrüßung{
+font-size: 30px;
+}
+
+.gaming_fragen{
+font-size: 15px;
+color: red;
+}
+.gaming_antworten{
+font-size:15px;
+color: yellow;
+}
+.gaming_lieblingsspiele{
+font-size:15px;
+color: green;
+}
+/*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
+p:first-child{
+    margin-bottom: 10px;
+=======
     margin-top: 80px;  
     
 }
@@ -176,6 +228,7 @@ width:100%;
 height:700px;
 text-shadow: 0px px 3px #555;
 font: 20px Tahoma, Helvetica, Arial, Sans-Serif;   
+>>>>>>> 2b46909c23427a30747b387ee80f6b891946c0bd
 }
 
 /*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
