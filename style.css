@@ -1,4 +1,4 @@
-html {
+﻿html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -117,24 +117,9 @@ h3{
 }
 
 article{
-    width: 800px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: justify;
-    
-}
 
-.about_img{
-    display: block;
-    width: 300px;
-    margin: auto;
-    margin-bottom: 20px;
 }
-
-p:first-child{
-    margin-bottom: 10px;
-}
-*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
 .franz_wrapper{
 width: 100%; 
 height:700px;
@@ -167,6 +152,30 @@ font-size: 30px;
 .gaming_fragen{
 font-size: 30px;
 color: red;
+
+}
+*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
+.franz_wrapper{
+width: 100%; 
+height:700px;
+    
+}
+.franz_wrapper > img{
+    float:left;
+    height:600px;
+    width:600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 80px;  
+    
+}
+.franz_wrapper > article{
+margin-top:20px;
+width:100%;
+height:700px;
+text-shadow: 0px px 3px #555;
+font: 20px Tahoma, Helvetica, Arial, Sans-Serif;   
 }
 
 /*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
