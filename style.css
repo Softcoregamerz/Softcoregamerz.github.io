@@ -1,4 +1,4 @@
-html {
+﻿html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -94,9 +94,6 @@ nav li{
     font-weight: bold;
 }
 
-article{
-    max-width: 100%;
-}
 
 h1{
     text-align: center;
@@ -112,58 +109,57 @@ h3{
 }
 
 article{
-    width: 800px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: justify;
-}
 
-.bilder{
-       width: 800px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: justify;
 }
-    .about_img_franz {
-    display: inline;
-    width: 250px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 40px;   
-    }
-
+/*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
+.franz_wrapper{
+width: 100%; 
+height:700px;
+    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.1));
     
-.about_img_timon {
-        display: inline;
-    width: 250px;
-    margin-left: 5px;
-    margin-right: 5px;
+}
+.franz_wrapper > img{
+    float:left;
+    height:600px;
+    width:600px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 20px;
-    margin-top: 40px;
-  opacity: 1;
-  transition: all ease 0.8s;
-}
-.about_img_timon:hover {
+    margin-top: 8px;  
     
-  opacity: 1;
 }
-.about_img_dustin {
-        display: inline;
-    width: 250px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-  opacity: 1;
-  transition: all ease 0.8s;
-}
-.about_img_dustin:hover {
-    
-  opacity: 1;
+.franz_wrapper > article{
+margin-top:20px;
+width:100%;
+height:700px;
 }
 
+.franz_cheat_sheet{
+    height: 50px;
+    width: 50px;
+    float:left;
+}
+.normaler_Text{
+   text-shadow: 0px px 3px #555;
+font: 20px Tahoma, Helvetica, Arial, Sans-Serif; 
+}
+.begrüßung{
+font-size: 30px;
+}
 
+.gaming_fragen{
+font-size: 15px;
+color: red;
+}
+.gaming_antworten{
+font-size:15px;
+color: yellow;
+}
+.gaming_lieblingsspiele{
+font-size:15px;
+color: green;
+}
+/*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
 p:first-child{
     margin-bottom: 10px;
 }
