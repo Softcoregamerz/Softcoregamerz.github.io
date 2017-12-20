@@ -208,13 +208,10 @@ p:first-child{
     width: 100%;
     background-color: rgba(300,300,300,0.7);
     font-size: 30px;
+    bottom: 100px;
+    padding: 10px;
     text-align: center;
     color: black;
-}
-
-#frage{
-    display: grid;
-    align-items: center;
 }
 
 .umfrage > span {
@@ -225,7 +222,6 @@ p:first-child{
     margin: 10px;
     font-size: 15px;
 }
-
 
 .umfrage > img {
     width: 100%;
@@ -249,6 +245,18 @@ p:first-child{
     padding: 5px;
     margin: 10px;
     font-size: 15px;
+}
+
+.news > p {
+    color: black;
+    width: auto;
+    z-index: 2;
+    font-size: 20px;
+    background-color: rgba(300,300,300,0.5);
+    margin-top: 45px;
+    padding: 10px;
+    text-align: justify;
+    min-height: 225px;
 }
 
 .news > img {
