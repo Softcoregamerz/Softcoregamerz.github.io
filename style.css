@@ -159,16 +159,19 @@ p:first-child{
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 8px;     
+    margin-left:10px;
 }
 .about_img_dustin{   
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 8px;     
+    margin-left:10px;
 }
 .about_img_timon{   
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 8px;     
+    margin-left:10px;
 }
 /*------------------------------------------------------------------------*/
 .franz_text{   
@@ -176,7 +179,8 @@ p:first-child{
     font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
 }
 .timon_text{
-    margin:0px;
+    margin-top:20px;
+    margin-left:15px;
     text-shadow: 5px 3px 3px #555;
     font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
 }
@@ -189,6 +193,7 @@ p:first-child{
 .cheat_sheet{
     background-color:white;
     color: black;
+    margin-left:10px;
 }
 .normaler_Text{
   
