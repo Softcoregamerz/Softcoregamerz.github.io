@@ -306,7 +306,7 @@ font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
 
 .news > p {
     color: black;
-    width: auto;
+    width: 100%;
     z-index: 2;
     font-size: 20px;
     background-color: rgba(255,255,255,0.5);
