@@ -323,7 +323,7 @@ font: 20px Tahoma, Helvetica, Arial, Sans-Serif;
     object-fit: cover;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .wrapper {
         grid-auto-rows: 200px;
     }
