@@ -137,27 +137,61 @@ p:first-child{
 
 /*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
 .franz_wrapper{
-    width: 100%;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.1));
+    display:flex;
+    align-items: flex-start;
+    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3));   
 }
-.franz_wrapper > img{
-    float:left;
-    height:600px;
-    width:600px;
-    margin-left: 10px;
+.dustin_wrapper{
+    display:flex;
+    align-items: flex-start;
+    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
+}
+.timon_wrapper{
+    display:flex;
+    align-items: flex-start;
+    background: linear-gradient(to right, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
+}
+/*--------------------------------------------------------------------*/
+.bild_und_text_wrapper{
+    width:40%
+}
+.about_img_franz{   
     margin-right: 10px;
     margin-bottom: 20px;
-    margin-top: 8px;  
+    margin-top: 8px;     
 }
-
-.franz_cheat_sheet{
-    height: 50px;
-    width: 50px;
-    float:left;
+.about_img_dustin{   
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;     
+}
+.about_img_timon{   
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 8px;     
+}
+/*------------------------------------------------------------------------*/
+.franz_text{   
+    text-shadow: 5px 3px 3px #555;
+    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
+}
+.timon_text{
+    margin:0px;
+    text-shadow: 5px 3px 3px #555;
+    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
+}
+.dustin_text{   
+    margin:0px;
+    text-shadow: 5px 3px #555;
+    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
+}
+/*---------------------------------------------*/
+.cheat_sheet{
+    background-color:white;
+    color: black;
 }
 .normaler_Text{
-   text-shadow: 0px px 3px #555;
-    font: 20px Tahoma, Helvetica, Arial, Sans-Serif; 
+  
 }
 .begrüßung{
     font-size: 30px;
@@ -176,12 +210,7 @@ p:first-child{
     color: green;
 }
 
-.franz_wrapper > article{
-    margin-top:20px;
-    width:100%;
-    text-shadow: 0px px 3px #555;
-    font: 20px Tahoma, Helvetica, Arial, Sans-Serif;   
-}
+
 
 /*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
 
