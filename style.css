@@ -137,9 +137,8 @@ p:first-child{
 
 /*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
 .franz_wrapper{
-width: 100%; 
-height:700px;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.1));    
+    width: 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.1));
 }
 .franz_wrapper > img{
     float:left;
@@ -149,7 +148,6 @@ height:700px;
     margin-right: 10px;
     margin-bottom: 20px;
     margin-top: 8px;  
-    
 }
 
 .franz_cheat_sheet{
@@ -159,31 +157,30 @@ height:700px;
 }
 .normaler_Text{
    text-shadow: 0px px 3px #555;
-font: 20px Tahoma, Helvetica, Arial, Sans-Serif; 
+    font: 20px Tahoma, Helvetica, Arial, Sans-Serif; 
 }
 .begrüßung{
-font-size: 30px;
+    font-size: 30px;
 }
 
 .gaming_fragen{
-font-size: 15px;
-color: red;
+    font-size: 15px;
+    color: red;
 }
 .gaming_antworten{
-font-size:15px;
-color: yellow;
+    font-size:15px;
+    color: yellow;
 }
 .gaming_lieblingsspiele{
-font-size:15px;
-color: green;
+    font-size:15px;
+    color: green;
 }
 
 .franz_wrapper > article{
-margin-top:20px;
-width:100%;
-height:700px;
-text-shadow: 0px px 3px #555;
-font: 20px Tahoma, Helvetica, Arial, Sans-Serif;   
+    margin-top:20px;
+    width:100%;
+    text-shadow: 0px px 3px #555;
+    font: 20px Tahoma, Helvetica, Arial, Sans-Serif;   
 }
 
 /*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
