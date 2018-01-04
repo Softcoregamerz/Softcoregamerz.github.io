@@ -1,4 +1,4 @@
-﻿html {
+html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -59,10 +59,6 @@ img {
 
  /*Mit dem obigen Code schaffen wir eine gute Grundlage (Foundation) für unsere CSS Datei. Der Grund warum normalization und reset nicht immer die beste Entscheidung sind ist schlicht und ergreifend, weil sie einerseits überflüssigen Code beinhalten wie beispielsweise <hr>, <kbd>, <var> oder <ruby> tags. Andererseits fehlen wichtige Sachen */
 
-html{
-    min-height: 101vh;
-}
-
 body{
     background: radial-gradient(circle, #0059b3, #004080, #00264d);
     color: white;
@@ -91,12 +87,28 @@ nav li{
     font-weight: bold;
 }
 
-footer{
-    position: relative;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper_about, section{
+  flex: 1 0 auto;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 1%;
     background: linear-gradient(to right, rgb(10, 10, 10) ,  rgb(0, 130, 130));
     text-align: center;
-    margin-top: 30px;
-}
+    z-index: 2;
+    padding: 1rem;
+  }
+
+/* ---------------------------------------------------------- */
 
 .reviews{
     width: 60%;
@@ -122,93 +134,73 @@ h3{
 	font-size: 1.2rem;
 }
 
-/*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
-.franz_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3));   
-}
-.dustin_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
-}
-.timon_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to right, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
-}
-/*--------------------------------------------------------------------*/
-.bild_und_text_wrapper{
-    width: 40%;
-}
-.about_img_franz{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-.about_img_dustin{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-.about_img_timon{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-/*------------------------------------------------------------------------*/
-.franz_text{   
-    text-shadow: 5px 3px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-.timon_text{
-    margin-top:20px;
-    margin-left:15px;
-    text-shadow: 5px 3px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-.dustin_text{   
-    margin:0px;
-    text-shadow: 5px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-/*---------------------------------------------*/
-.cheat_sheet{
-    background-color:white;
-    color: black;
-    margin-left:10px;
-}
-.normaler_Text{
-  
-}
-.begrüßung{
-    font-size: 30px;
+/*-------------------------------------------------------------------------------------- CSS Für Dustins Seiten ----------------------------------------------------------------------------------------------------------------------*/
+
+/* About concept */
+
+.wrapper_about{
+    position: relative;
+    margin-top: 30px;
+    z-index:3;
 }
 
-.gaming_fragen{
-    font-size: 15px;
-    color: red;
-}
-.gaming_antworten{
-    font-size:15px;
-    color: yellow;
-}
-.gaming_lieblingsspiele{
-    font-size:15px;
-    color: green;
+.container {
+    position: relative;
+    width: 33.333%;
+    float: left;
+    height: 100%;
+    overflow: visible;
 }
 
+.image {
+    clear:both;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
 
+.overlay {
+    position: relative;
+    bottom: 100%;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
 
-/*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
+.container:hover .overlay {
+    height: auto;
+    bottom: 0;
+    overflow: visible;
 
-/* Grid Layout*/
+}
 
-.wrapper {
+.text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    overflow: visible;
+    padding: 3%;
+    text-align: justify;
+    transition: .5s ease;
+}
+
+.text > p {
+    padding-bottom: 10px;
+}
+
+.text p:last-child {
+    padding-bottom: 0;
+}
+
+/* Home Grid Layout*/
+
+.wrapper_index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 300px;
@@ -218,7 +210,7 @@ h3{
     margin-right: 30px;
 }
 
-.wrapper div {
+.wrapper_index div {
     font-size: 2rem;
     text-transform: uppercase;
     overflow: hidden;
@@ -228,6 +220,7 @@ h3{
 
 .big_box {
     grid-column: 1 / 4;
+    transition: padding .1s;
 }
 
 .big_box > * {
@@ -262,6 +255,7 @@ h3{
 
 .mid_box{
     grid-column: 1 / 3;
+    transition: padding .1s;
 }
 
 .mid_box > * {
@@ -269,11 +263,12 @@ h3{
 }
 
 .mid_box h2 {
+    position: relative;
     z-index: 2;
     width: 90%;
     background-color: rgba(255,255,255,0.7);
     font-size: 2.2rem;
-    bottom: 100px;
+    top: 50%;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
@@ -289,6 +284,7 @@ h3{
 
 .small_box{
     grid-column: 3 / 4;
+    transition: padding .1s;
 }
 
 .small_box > * {
@@ -301,12 +297,13 @@ h3{
     z-index: 2;
     font-size: 1.5rem;
     background-color: rgba(255,255,255,0.5);
-    margin-top: 13%;
+    margin-top: 46px;
     padding-left: 5%;
     padding-right: 5%;
+    position: relative;
     text-align: center;
     justify-content: center;
-    height: 69%;
+    height: 85%;
 }
 
 .small_box img {
@@ -344,11 +341,11 @@ h3{
 }
 
 @media screen and (max-width: 768px){
-    .wrapper {
+    .wrapper_index {
         grid-auto-rows: 200px;
     }
     
-    .wrapper span{
+    .wrapper_index span{
         font-size: 13px;
     }
     
@@ -410,11 +407,11 @@ h3{
 }
 
 @media screen and (max-width: 400px){
-    .wrapper {
+    .wrapper_index {
         grid-auto-rows: 150px;
     }
     
-    .wrapper span {
+    .wrapper_index span {
         font-size: 10px;
     }
     
