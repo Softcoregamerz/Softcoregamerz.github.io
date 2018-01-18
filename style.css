@@ -343,13 +343,13 @@ h3{
     z-index: 2;
     font-size: 1.5rem;
     background-color: rgba(255,255,255,0.5);
-    margin-top: 46px;
+    margin-top: 50%;
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
     text-align: center;
     justify-content: center;
-    height: 85%;
+    height: auto;
 }
 
 .small_box img {
