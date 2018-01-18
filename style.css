@@ -112,19 +112,6 @@ body {
     padding: 1rem;
   }
 
-/* ---------------------------------------------------------- */
-
-.reviews{
-    width: 60%;
-    margin: auto;
-    text-align: justify;
-    margin-top: 30px;
-}
-
-.reviews article {
-    margin-bottom: 30px;
-}
-
 h1{
     text-align: center;
 	font-size: 1.6rem;
@@ -138,7 +125,30 @@ h3{
 	font-size: 1.2rem;
 }
 
-/*-------------------------------------------------------------------------------------- CSS Für Dustins Seiten ----------------------------------------------------------------------------------------------------------------------*/
+/* Review site */
+
+.reviews{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.reviews article {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .reviews{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .reviews{
+        width: 92%;
+    }
+}
 
 /* About concept */
 
@@ -181,7 +191,6 @@ h3{
     height: auto;
     bottom: 0;
     overflow: visible;
-
 }
 
 .text {
@@ -202,7 +211,31 @@ h3{
     padding-bottom: 0;
 }
 
-/* Home Grid Layout*/
+@media screen and (max-width: 768px){
+    .container {
+        position: relative;
+        width: 100%;
+        float: left;
+        height: 100%;
+        overflow: visible;
+        margin-bottom: 5%;
+    }
+    
+    .overlay {
+        position: relative;
+        bottom: 100%;
+        top: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #008CBA;
+        overflow: visible;
+        width: 96%;
+        height: auto;
+    }
+
+}
+
+/* Home Grid Layout */
 
 .wrapper_index {
     display: grid;
