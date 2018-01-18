@@ -150,6 +150,15 @@ h3{
     }
 }
 
+/* Umfrage site */
+
+.umfragen{
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+
 /* About concept */
 
 .wrapper_about{
