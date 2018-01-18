@@ -1,4 +1,4 @@
-﻿html {
+html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -60,7 +60,7 @@ img {
  /*Mit dem obigen Code schaffen wir eine gute Grundlage (Foundation) für unsere CSS Datei. Der Grund warum normalization und reset nicht immer die beste Entscheidung sind ist schlicht und ergreifend, weil sie einerseits überflüssigen Code beinhalten wie beispielsweise <hr>, <kbd>, <var> oder <ruby> tags. Andererseits fehlen wichtige Sachen */
 
 html{
-    min-height: 101vh;
+	min-height: 101vh;	
 }
 
 body{
@@ -87,141 +87,124 @@ nav ul{
 nav li{
 	flex: 1;
 	text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
 }
 
-footer{
-    position: relative;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper_about, section{
+  flex: 1 0 auto;
+}
+
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 1%;
     background: linear-gradient(to right, rgb(10, 10, 10) ,  rgb(0, 130, 130));
-    height: 50px;
     text-align: center;
+    z-index: 2;
+    padding: 1rem;
+  }
+
+/* ---------------------------------------------------------- */
+
+.reviews{
+    width: 60%;
+    margin: auto;
+    text-align: justify;
     margin-top: 30px;
 }
 
-article{
-    max-width: 100%;
+.reviews article {
+    margin-bottom: 30px;
 }
 
 h1{
     text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 }
 
 h2{
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 }
 
 h3{
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
-article{
-    width: 800px;
-    margin: auto;
-    margin-bottom: 20px;
-    text-align: justify;
-    
+/*-------------------------------------------------------------------------------------- CSS Für Dustins Seiten ----------------------------------------------------------------------------------------------------------------------*/
+
+/* About concept */
+
+.wrapper_about{
+    position: relative;
+    margin-top: 30px;
+    z-index:3;
 }
 
-.about_img{
+.container {
+    position: relative;
+    width: 33.333%;
+    float: left;
+    height: 100%;
+    overflow: visible;
+}
+
+.image {
+    clear:both;
     display: block;
-    width: 300px;
+    width: 50%;
+    height: auto;
     margin: auto;
-    margin-bottom: 20px;
 }
 
-p:first-child{
-    margin-bottom: 10px;
+.overlay {
+    position: relative;
+    bottom: 100%;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
 }
 
-/*-------------------------------------------------------------------------------------- CSS Für Franz Seite ----------------------------------------------------------------------------------------------------------------------*/
-.franz_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3));   
-}
-.dustin_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to left, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
-}
-.timon_wrapper{
-    display:flex;
-    align-items: flex-start;
-    background: linear-gradient(to right, rgba(255, 255, 255,0) ,  rgba(218, 218, 208,0.3)); 
-}
-/*--------------------------------------------------------------------*/
-.bild_und_text_wrapper{
-    width:40%
-}
-.about_img_franz{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-.about_img_dustin{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-.about_img_timon{   
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-top: 8px;     
-    margin-left:10px;
-}
-/*------------------------------------------------------------------------*/
-.franz_text{   
-    text-shadow: 5px 3px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-.timon_text{
-    margin-top:20px;
-    margin-left:15px;
-    text-shadow: 5px 3px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-.dustin_text{   
-    margin:0px;
-    text-shadow: 5px 3px #555;
-    font: 15px Tahoma, Helvetica, Arial, Sans-Serif;    
-}
-/*---------------------------------------------*/
-.cheat_sheet{
-    background-color:white;
-    color: black;
-    margin-left:10px;
-}
-.normaler_Text{
-  
-}
-.begrüßung{
-    font-size: 30px;
+.container:hover .overlay {
+    height: auto;
+    bottom: 0;
+    overflow: visible;
+
 }
 
-.gaming_fragen{
-    font-size: 15px;
-    color: red;
-}
-.gaming_antworten{
-    font-size:15px;
-    color: yellow;
-}
-.gaming_lieblingsspiele{
-    font-size:15px;
-    color: green;
+.text {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    overflow: visible;
+    padding: 3%;
+    text-align: justify;
+    transition: .5s ease;
 }
 
+.text > p {
+    padding-bottom: 10px;
+}
 
+.text p:last-child {
+    padding-bottom: 0;
+}
 
-/*-------------------------------------------------------------------------------------- CSS Für Dustins Seite ----------------------------------------------------------------------------------------------------------------------*/
+/* Home Grid Layout*/
 
-/* Grid Layout*/
-
-.wrapper {
+.wrapper_index {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 300px;
@@ -231,24 +214,110 @@ p:first-child{
     margin-right: 30px;
 }
 
-.wrapper > div {
-    background-color: rgba(255, 255, 255, 0.3);
-    font-size: 30px;
+.wrapper_index div {
+    font-size: 2rem;
     text-transform: uppercase;
     overflow: hidden;
     position: relative;
     max-height: 300px;
 }
 
-.review {
+.big_box {
     grid-column: 1 / 4;
+    transition: padding .1s;
 }
 
-.review > * {
+.big_box > * {
     position: absolute;
 }
 
-.review > span {
+.big_box h2 {
+    background: linear-gradient(to right, rgba(100, 100, 100, 0.5) ,  rgba(100, 100, 100, 0.1) , rgba(100, 100, 100, 0));
+    font-size: 2.5rem;
+    margin-top: 195px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+.big_box p {
+    background: linear-gradient(to right, rgba(100, 100, 100, 0.5) ,  rgba(100, 100, 100, 0.1) , rgba(100, 100, 100, 0));
+    font-size: 1.6rem;
+    margin-top: 235px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100%;
+    z-index: 2;
+}
+
+.big_box img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.mid_box{
+    grid-column: 1 / 3;
+    transition: padding .1s;
+}
+
+.mid_box > * {
+    position: absolute;
+}
+
+.mid_box h2 {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    background-color: rgba(255,255,255,0.7);
+    font-size: 2.2rem;
+    top: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: black;
+}
+
+.mid_box img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.small_box{
+    grid-column: 3 / 4;
+    transition: padding .1s;
+}
+
+.small_box > * {
+    position: absolute;
+}
+
+.small_box p {
+    color: black;
+    width: 90%;
+    z-index: 2;
+    font-size: 1.5rem;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: 46px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    height: 85%;
+}
+
+.small_box img {
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.review_span {
     width: auto;
     z-index: 2;
     background-color: #CC4444;
@@ -257,52 +326,7 @@ p:first-child{
     font-size: 15px;
 }
 
-.review > h2 {
-    background: linear-gradient(to right, rgba(100, 100, 100, 0.5) ,  rgba(100, 100, 100, 0.1) , rgba(100, 100, 100, 0));
-    font-size: 40px;
-    margin-top: 195px;
-    padding-left: 10px;
-    width: 100%;
-    z-index: 2;
-}
-
-.review > p {
-    background: linear-gradient(to right, rgba(100, 100, 100, 0.5) ,  rgba(100, 100, 100, 0.1) , rgba(100, 100, 100, 0));
-    font-size: 25px;
-    margin-top: 235px;
-    padding-top: 10px;
-    padding-left: 10px;
-    width: 100%;
-    z-index: 2;
-}
-
-.review > img{
-    width: 100%;
-    height: 300px;
-    z-index: 1;
-    object-fit: cover;
-}
-
-.umfrage{
-    grid-column: 1 / 3;
-}
-
-.umfrage > * {
-    position: absolute;
-}
-
-.umfrage > h2 {
-    z-index: 2;
-    width: 100%;
-    background-color: rgba(255,255,255,0.7);
-    font-size: 30px;
-    bottom: 100px;
-    padding: 10px;
-    text-align: center;
-    color: black;
-}
-
-.umfrage > span {
+.umfrage_span {
     width: auto;
     z-index: 2;
     background-color: #2244AA;
@@ -311,22 +335,7 @@ p:first-child{
     font-size: 15px;
 }
 
-.umfrage > img {
-    width: 100%;
-    height: 300px;
-    z-index: 1;
-    object-fit: cover;
-}
-
-.news{
-    grid-column: 3 / 4;
-}
-
-.news > * {
-    position: absolute;
-}
-
-.news > span {
+.news_span {
     width: auto;
     z-index: 2;
     background-color: #44AA44;
@@ -335,76 +344,59 @@ p:first-child{
     font-size: 15px;
 }
 
-.news > p {
-    color: black;
-    width: 100%;
-    z-index: 2;
-    font-size: 20px;
-    background-color: rgba(255,255,255,0.5);
-    margin-top: 45px;
-    padding: 10px;
-    text-align: justify;
-    min-height: 190px;
-}
-
-.news > img {
-    width: 100%;
-    height: 300px;
-    z-index: 1;
-    object-fit: cover;
-}
-
 @media screen and (max-width: 768px){
-    .wrapper {
+    .wrapper_index {
         grid-auto-rows: 200px;
     }
     
-    .review > span {
+    .wrapper_index span{
         font-size: 13px;
     }
     
-    .review > h2 {
+    .big_box h2 {
         font-size: 30px;
         margin-top: 125px;
     }
 
-    .review > p {
+    .big_box p {
         font-size: 16px;
         margin-top: 155px;
     }
     
-    .review > img{
+    .big_box img{
         height: 200px;
     }
     
-    .umfrage > span {
-        font-size: 13px;
+    .mid_box{
+        grid-column: 1 / 4;
     }
     
-    .news > span {
-        font-size: 13px;
+    .mid_box h2 {
+        font-size: 25px;
+        bottom: 50px;
     }
     
-    .umfrage > img{
+    .mid_box img{
         width: 100%;
         height: 200px;
         z-index: 1;
         object-fit: cover;
     }
     
-    .news > img{
+    .small_box{
+        grid-column: 1 / 4;
+    }
+    
+    .small_box p {
+        font-size: 18px;
+        min-height: 100px
+    }
+    
+    .small_box img{
         width: 100%;
         height: 200px;
         z-index: 1;
         object-fit: cover;
-    }
-    
-    .umfrage{
-        grid-column: 1 / 4;
-    }
-    
-    .news{
-        grid-column: 1 / 4;
     }
     
     nav li{
@@ -419,46 +411,47 @@ p:first-child{
 }
 
 @media screen and (max-width: 400px){
-    .wrapper {
+    .wrapper_index {
         grid-auto-rows: 150px;
     }
     
-    .review > span {
+    .wrapper_index span {
         font-size: 10px;
     }
     
-    .review > h2 {
+    .big_box h2 {
         font-size: 20px;
         margin-top: 100px;
     }
     
-    .review > p {
+    .big_box p {
         font-size: 11px;
         margin-top: 120px;
         padding-top: 5px;
     }
     
-    
-    .review > img{
+    .big_box img{
         height: 150px;
     }
     
-    .umfrage > span {
-        font-size: 10px;
+    .mid_box h2 {
+        font-size: 18px;
+        bottom: 30px;
     }
     
-    .news > span {
-        font-size: 10px;
-    }
-    
-    .umfrage > img{
+    .mid_box img{
         width: 100%;
         height: 150px;
         z-index: 1;
         object-fit: cover;
     }
     
-    .news > img{
+    .small_box p {
+        min-height: 60px;
+        font-size: 15px;
+    }
+    
+    .small_box img{
         width: 100%;
         height: 150px;
         z-index: 1;
@@ -475,17 +468,17 @@ p:first-child{
     }
 }
 
-.review:hover{
-    margin-left: 3px;
-    margin-top: 3px;
+.big_box:hover{
+    padding-left: 3px;
+    padding-top: 3px;
 }
 
-.umfrage:hover{
-    margin-left: 3px;
-    margin-top: 3px;
+.mid_box:hover{
+    padding-left: 3px;
+    padding-top: 3px;
 }
 
-.news:hover{
-    margin-left: 3px;
-    margin-top: 3px;
+.small_box:hover{
+    padding-left: 3px;
+    padding-top: 3px;
 }

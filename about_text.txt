@@ -1,0 +1,225 @@
+<!--
+           <div class="franz_wrapper">
+
+            <img src="pictures/franz.jpg" title="Franz Lisdat" alt="Franz Lisdat" class="about_img_franz">
+               
+               <article class="franz_cheat_sheet">
+                   <p>Name: Franz Justus Maximilian Alter: 22 (22.10. 1995) </p>
+                   <p>Körpergröße: 174     Geboren: Berlin (Deutschland) </p>
+                    <p> LieblingsSpiel: The Legend of Zelda Ocarina of Time</p>
+                        </article>
+               
+
+               <article class="franz_text">
+                 <h2>Franz Lisdat</h2>
+                   <p class="begrüßung">
+                       Hi :D </p>
+<p class="normaler_Text">
+
+    Mein Name ist Franz Lisdat und ich bin Medieninformatik Student an der HTW Berlin. </p> 
+<p class="normaler_Text"> 
+    <p class="wichtiger_text"> Ich würde gern selber Spiele entwickeln als Designer und Programmer in einer Spiele Firma.</p>
+                
+<p class="normaler_Text">
+
+Geboren wurde ich am 22.10.1995 und bin mit 2 älteren Geschwistern, Games Boys und einer Nintendo 64 aufgewachsen.
+
+Wie auch für viele sind Videospiele ein großer Teil meines Lebens. Sie haben meine Kindheit unglaublich geprägt. The Legend of Zelda hat meine Fantasie sehr angeregt, wodurch ich viel Zeit meines jungen Lebens damit verbracht habe mir Abenteuer auszudenken und wie der Held „Link“ diese zu erleben.
+
+Aber auch Mario und Pokemon, genau wie MegaMan und Bomberman habe ich viel alleine und mit meiner ganzen Familie gespielt. Sei es das einer spielt und alle zuschauen oder zusammen Mario Kart. Das Nintendo 64 spielen war immer etwas auf das ich mich freuen konnte.</p>
+                   
+                   <p>_</p>                  
+<p class="normaler_Text">
+Als ich älter wurde habe ich immer wieder Ausschau nach anderen Spielen gehalten. Die Metroid Serie hatte mich sehr in den Ban gezogen aber es hat eine weile gedauert bis ich das sichere Boot von Nintendo verlassen habe.
+
+Ich hatte bei meinem älteren Bruder gerne zugeguckt während er Videospiele spielt und als er dann sich eine Xbox360 gekauft hatte, hatten Spiele wie Assassins Creed oder Fable mein Interesse an anderen Konsolen geweckt. Also machte ich einen Abstecher ein paar Jahre später und wurde von vielen neuen Franchises an den Bildschirm geklebt.
+
+    Am meisten hatten mir Fable 1 & 2 und die Halo Serie gefallen, in welche ich viel Zeit investiert hatte. </p>
+    
+     <p>_</p>   
+    <p class="normaler_Text">
+
+Auf der Games Com 2010 hatte ich dann eine riesige Bühne gesehen wo ein Publikum Leuten beim zocken zugeguckt hatte und wie bei einem Fussballspiel, wurde geschrien und mitgefiebert. Ich selber war so von der ganzen Situation beeindruckt, sodas ich, obwohl ich noch nie von dem Spiel gehört hatte, mich einfach dazu gesetzt hab und zugeschaut hatte. Es handelte sich um das Spiel League of Legends.
+
+Ich besorgte mir also einen PC und habe bis jetzt ca. 4000 Spielstunden in League of Legends investiert. Ich war so besessen besser zu werden und mich mit besseren zu mesen das ich sogar einem Team beigetreten bin und auch wenn nur kurz auf ein paar Turnieren gespielt hatte.
+
+Hin und wieder habe ich an Turnieren teilgenommen und die Szene verfolgt, sei es League of Legends oder Super Smash Bros oder auch KartenSpiele. Mich mit Leuten zu messen hat mir immer sehr viel Spaß gemacht.</p>
+                   
+                    <p>_</p>   
+ <p class="normaler_Text">
+Mein Gaming Life hat sich also von Single Playern auf Nintendo und Xbox über zum PC entwickelt. Auch wenn ich mich sehr auf Multiplayer konzentiert habe, habe ich trotzdem ein großes Herz für Retro Spiele.
+
+Runderbasienerde Spiele machen mir kein Spaß mehr. Ich versuche immer kritischer Spiele zu betrachten um genau zu erkennen was gut aber auch schlecht ist, um daraus zu lernen und wenn ich Spiele selber herstelle dies zu beachten.
+                   </p>                  
+
+<p class="gaming_lieblingsspiele">
+
+Meine Lieblingsspiele sind:
+
+- The Legend of Zelda Ocarina of Time
+
+- Metroid Prime Metal Gear Solid 3: Snake Eater
+
+- Monster Hunter Freedom Unite
+
+- Halo 3 & Reach
+
+- Witcher 3
+
+                    
+Entwickler:
+            
+- CDPR
+                    
+- Retro Studios
+
+- Lucid Games
+
+- Team 5
+                   <p class="gaming_fragen">                   
+Spiel was für mich nie Sinn gemacht hatte:
+                   </p>
+                   <p class="gaming_antworten">
+- XCOM
+                   </p>
+                     <p class="gaming_fragen">   
+Auf welches Spiel freue ich mich am meistens:
+                   </p>
+                     <p class="gaming_antworten">
+- Monster Hunter Worlds
+                   </p>
+                     <p class="gaming_fragen"> 
+Welches Spiel mögen alle, aber du nicht?
+                   </p>
+                    <p class="gaming_antworten">
+- Far Cry Serie
+                   </p>
+ <p class="gaming_fragen"> 
+Was wird Spiel des Jahres 2017? (GOTY)
+                   </p>
+                    <p class="gaming_antworten">
+- Super Mario Odyssey
+                   </p>
+            
+        </article>
+        </div>
+        
+  
+    <div class="wrapper">
+        <article class="Timons_Text">
+                     <img src="pictures/timon.jpg" title="Timon Elflein" alt="Timon Elflein" class="about_img_timon">
+                        <h2>Timon Elflein</h2>  
+                            <p>
+Hey!
+
+Mein Name ist Timon Elflein und ich bin 19 Jahre jung. Aktuell studiere ich Internationale Medieninformatik in Berlin, komme aber ursprünglich aus der Hansestadt Greifswald. Mein Traum ist es später selber Spiele zu programmieren bzw. zu designen in einem bekannten Spieleunternehmen. Ich spiele Videospiele schon seit meiner Kindheit und habe auch heute noch großen Spaß daran. Meinen ersten Computer hatte ich mit 8 Jahren und alles fing hauptsächlich mit Minecraft an. Aber auch früher schon habe ich viel Pokemon und Kirby auf dem GameBoy gespielt. Je älter ich wurde, umso größer wurde mein Interesse, neue Spiele auszuprobieren. Und so lernte ich beliebte Genres wie Strategie, Arcade oder Shooter kennen. Mein Spielspaß hat sich bis heute nicht gemindert. Aktuell spiele ich Spiele wie „Playerunknown‘s Battlegrounds“, „League of Legends“ und „Overwatch“.</p>
+<p>Meine Lieblingsspiele sind:
+
+- League Of Legends
+                    
+- Diablo 3
+                    
+- Overwatch
+                    
+- Playerunknown's Battlegrounds
+                    
+- Call of Duty Reihe
+                    
+- Grand Theft Auto Reihe
+                    
+- Life is Strange
+                    
+                
+Entwickler:
+            
+- Naughty Dog
+                    
+- Riot
+
+- Telltale Games
+
+- Dontnod Entertainment
+       
+                    
+Spiel was für mich nie Sinn gemacht hatte:
+
+- Ark Survival Evolved
+
+                    
+Auf welches Spiel freue ich mich am meistens:
+
+- The Last of Us 2
+
+                    
+Welches Spiel mögen alle, aber du nicht?
+
+- Mass Effect
+           
+                    
+Was wird Spiel des Jahres 2017? (GOTY)
+
+- PUBG    
+                </p>
+            </article>
+        </div>
+
+    <div class="wrapper">
+        <article class="dustin_text">
+            <img src="pictures/dustin.jpg" title="Dustin Reimann" alt="Dustin Reimann" class="about_img_dustin"> 
+
+            <h2>Dustin Reimann</h2>
+            <p>
+Ich bin Dustin, 19 Jahre alt, komme aus Berlin und wohne zurzeit  in Wilhelmsruh. Seit dem Wintersemester 2017 bin ich Student an der HTW Berlin und studiere dort den internationalen Studiengang Medieninformatik. Warum ich mich für dieses Studium entschieden habe? In meiner Freizeit zocke ich unheimlich gerne Games und seit zwei Jahren auch Programmieren.
+
+Nach meinem Studium würde ich mich gerne durch Startups arbeiten bis ich irgendwann in einem großen Unternehmen als Software- oder Application programmer lande.
+
+Die erste Plattform auf der ich Spiele gespielt habe war der Gameboy Color. Darauf habe ich Spiele wie DonkeyKong oder Kirby gespielt. Danach ging es weiter mit der Playstation 1 wo Spiele wie NeedForSpeed Porsche oder Spyro meine größten Favoriten waren. Mit der Playstation 2 kamen dann schon brutalere Spiele wie GTA 3 oder GTA San Andreas oder Call of Duty World at War.
+
+Momentan spiele ich jedoch nur auf dem Computer die aktuellsten Games. Konsolen wie die Xbox 360 oder die Playstation 3 hatte ich auch zwischen zeitlich, jedoch wurde mir immer wieder klar das mein Herz nur für den PC schlägt.
+
+Vor einigen Jahren habe ich mir dann meinen eigenen PC selbst zusammengestellt und auch zusammengebaut.
+                    
+        
+Meine Lieblingsspiele sind:
+
+- Minecraft
+
+- Call of Duty Reihe
+
+- Flyff
+
+- Battlefield Reihe
+
+- Grand Theft Auto Reihe
+
+- MMORPG's
+                    
+- PUBG
+                    
+
+Entwickler:
+            
+- Blizzard
+                    
+- Mojang
+
+- Rockstar
+
+    
+Spiel was für mich nie Sinn gemacht hatte:
+
+- Diablo 3
+
+                                  
+Welches Spiel mögen alle, aber du nicht?
+
+- Brawlhalla
+                
+                    
+Was wird Spiel des Jahres 2017? (GOTY)
+
+- PUBG
+            </p>
+        </article> 
+     </div>
+        -->
