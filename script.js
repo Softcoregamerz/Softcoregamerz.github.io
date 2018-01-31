@@ -10,7 +10,7 @@
 // Hier werden die Variablen definiert: 
 
 // Dies ist ein Array indem die Bilder/Icons der jeweiligen Karten gespeichert werden
-var memory_array = ['mario_coin.jpg','mario_coin.jpg','pubg_helmet.jpg','pubg_helmet.jpg','Navi_Artwork.jpg','Navi_Artwork.jpg','metroid.jpg','metroid.jpg','destiny.jpg','destiny.jpg','overwatch.jpg','overwatch.jpg','flyff.jpg','flyff.jpg'];
+var memory_array = ['mario_coin.jpg','mario_coin.jpg','pubg_helmet.jpg','pubg_helmet.jpg','Navi_Artwork.jpg','Navi_Artwork.jpg','metroid.jpg','metroid.jpg','destiny.jpg','destiny.jpg','overwatch.jpg','overwatch.jpg','flyff.jpg','flyff.jpg','lol.jpg','lol.jpg','life_is_strange.jpg','life_is_strange.jpg','monster_hunter.jpg','monster_hunter.jpg','cortana.jpg','cortana.jpg','mgs.jpg','mgs.jpg'];
 
 //
 var memory_values = [];
@@ -88,11 +88,11 @@ function memoryFlipTile(tile,val)
      {
         var tile_1 = document.getElementById(memory_tile_ids[0]);
         var tile_2 = document.getElementById(memory_tile_ids[1]);
-        tile_1.style.background = 'url(tile_bg.jpg) no-repeat';
+        tile_1.style.background = 'url(memory_karten_rücken.jpg) no-repeat';
         tile_1.style.backgroundSize = '110px 110px';
         
         tile_1.innerHTML = "";
-        tile_2.style.background = 'url(tile_bg.jpg) no-repeat';
+        tile_2.style.background = 'url(memory_karten_rücken.jpg) no-repeat';
         tile_2.style.backgroundSize = '110px 110px';
 
         tile_2.innerHTML = "";
