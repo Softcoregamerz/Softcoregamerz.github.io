@@ -63,8 +63,9 @@
                 </fieldset>
                 <fieldset>
                     <legend>Bitte gebe nun deinen Vornamen ein:</legend>
-                    <input type="text" name="firstname" size="30">
-                    <input type="submit" value="Submit" onsubmit="return validateName()">
+                    <input type="text" name="firstname" id="firstname" size="30">
+                    <button type="button" onclick="checkName()" >Submit</button>
+                    <p id="warning"></p>
                 </fieldset>
             </form>
         </section>

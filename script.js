@@ -1,14 +1,13 @@
-window.onload = function(){
-    'use strict';
-    
-    //Alle meine weiteren Anweisungen
-    
-    test();
-    
-}
+function checkName() {
+    var name, text;
 
-function test(){
-    console.log('sex');
-}
 
-window.addEventListener
+    name = document.getElementById("firstname").value;
+
+    if (/[\d]/.test(name)) {
+        text = "Sie dürfen keine Zahlen in ihrem Namen verwenden!";
+    } else {
+        text = "Input OK";
+    }
+    document.getElementById("warning").innerHTML = text;
+}
