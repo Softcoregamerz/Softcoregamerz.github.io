@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+    <head>
+        <meta name="author" content="Dustin Reimann,Franz Lisdat">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <style>
+div#memory_board{
+ background:#000;
+ border:#999 1px solid;
+ width:400px;
+ height:540px;
+ padding:24px;
+ margin:0px auto;
+}
+div#memory_board > div{
+background: url(http://www.fastdecals.com/graphics/starwars_imperial_tn.jpg) no-repeat center;
+background-size: 100px 100px;
+
+ border:#000 1px solid;
+ width:71px;
+ height:71px;
+ float:left;
+ margin:10px;
+ padding:20px;
+ font-size:64px;
+ cursor:pointer;
+ text-align:center;
+}
+
+div > img{
+width:71px;
+height:71px;
+}
+</style>
+
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="./pictures/logo.png" alt="Logo"></a></li>
+                    <li><a href="umfragen.html">Umfragen</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="ueber.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+  <div id="memory_board"></div>
+        <script>newBoard();</script>
+        <div class="footer"><strong>all rights reserved.</strong></div>
+    </body>
+</html>
