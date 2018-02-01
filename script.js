@@ -125,6 +125,9 @@ function memoryFlipTile(tile,val)
 
 function checkName() {
     
+    var getInput = document.getElementById("firstname").value;
+   localStorage.setItem("name",getInput);
+    
     var name, text;
     
     name = document.getElementById("firstname").value;
@@ -134,4 +137,9 @@ function checkName() {
     }else {
         document.getElementById("game").action = "game.html";
     }
+}
+
+function changeName(){
+    var name = localStorage.getItem("name");
+    document.getElementById("name_field").innerHTML = "Viel Spaß " + name;
 }

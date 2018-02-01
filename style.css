@@ -535,7 +535,7 @@ div#memory_board{
     height: auto;
     padding:24px;
     margin:0px auto;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 div#memory_board > div{  
@@ -555,4 +555,10 @@ cursor:pointer;
 div > img{
     width:100%;
     height:100%;
+}
+
+#name_field{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
 }
