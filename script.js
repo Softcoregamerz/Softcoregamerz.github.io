@@ -106,11 +106,9 @@ function memoryFlipTile(tile,val)
         var tile_1 = document.getElementById(memory_tile_ids[0]);
         var tile_2 = document.getElementById(memory_tile_ids[1]);
         tile_1.style.background = 'url(memory_karten_rücken.jpg) no-repeat';
-        tile_1.style.backgroundSize = '110px 110px';
         
         tile_1.innerHTML = "";
         tile_2.style.background = 'url(memory_karten_rücken.jpg) no-repeat';
-        tile_2.style.backgroundSize = '110px 110px';
         tile_2.innerHTML = "";
          
         memory_values = [];
