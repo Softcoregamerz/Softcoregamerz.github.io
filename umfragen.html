@@ -13,8 +13,7 @@
             <nav>
                 <ul>
                     <li><a href="index.html"><img src="./pictures/logo.png" alt="Logo"></a></li>
-                    <li><a href="umfragen.html">Umfragen</a></li>
-                    <li><a href="game.html">Game</a></li>
+                    <li><a href="umfragen.html">Game</a></li>
                     <li><a href="reviews.html">Reviews</a></li>
                     <li><a href="ueber.html">About</a></li>
                 </ul>
@@ -22,7 +21,7 @@
         </header>
         <section class="umfragen">
             <h2>Umfragen:</h2>
-            <form action="reviews.html">
+            <form id="game" action="" onsubmit="checkName()">
                 <fieldset>
                     <legend>Was ist dein Lieblings-Game?</legend>
                         <input type="radio" name="games" value="Overwatch" title="Overwatch" checked><label>Overwatch</label>
@@ -39,7 +38,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Welche war deine erste Konsole?</legend>
-                    <select name="Plattformen">
+                    <select name="Plattformen" >
                         <optgroup label="PC">
                         <option>Computer</option>
                         <optgroup label="Nintendo">  
@@ -63,8 +62,8 @@
                 </fieldset>
                 <fieldset>
                     <legend>Bitte gebe nun deinen Vornamen ein:</legend>
-                    <input type="text" name="firstname" size="30">
-                    <input type="submit" value="Submit" onsubmit="return validateName()">
+                    <input type="text" id="firstname" name="firstname" size="30" required />
+                    <input type="submit" value="submit" />
                 </fieldset>
             </form>
         </section>

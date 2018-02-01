@@ -123,3 +123,15 @@ function memoryFlipTile(tile,val)
  }
 }
 
+function checkName() {
+    
+    var name, text;
+    
+    name = document.getElementById("firstname").value;
+
+    if (/[\d]/.test(name)) {
+        alert("Sie dürfen keine Zahlen in ihrem Namen verwenden!");
+    }else {
+        document.getElementById("game").action = "game.html";
+    }
+}
