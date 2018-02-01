@@ -1,4 +1,4 @@
-/* Dies ist ein simples Memory Game, welches auf dem Memory Game von .... aufbaut
+/* Dies ist ein simples Memory Game
 / In diesem Spiel gibt es verschiedene Karten (hier gennant Tiles) welche der Spieler drücken kann
 / Wenn der Spieler eine Karte drückt, dreht sie sich um und zeigt dem Spieler ein Icon an, 
 / Nachdem der Spieler 2 Karten umgedreht hat checkt das Program ob diese beiden Karten die gleichen sind,
